@@ -13,7 +13,7 @@ ignore-existing = true
 
 [wp-config]
 recipe = collective.recipe.template
-url = http://build.pythonpackages.com/buildout/wordpress/templates/wp-config-sample.php.in
+url = http://build.pythonpackages.com/buildout/wordpress/wp-config-sample.php.in
 output = ${buildout:directory}/parts/wordpress/wp-config.php
 
 [database]
