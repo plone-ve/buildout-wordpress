@@ -1,8 +1,6 @@
 [buildout]
 extensions = buildout.bootstrap
-parts =
-    wordpress
-    wp-config
+parts = wordpress wp-config
 
 [wordpress]
 recipe = hexagonit.recipe.download
@@ -13,7 +11,7 @@ ignore-existing = true
 
 [wp-config]
 recipe = collective.recipe.template
-url = http://build.pythonpackages.com/buildout/wordpress/wp-config-sample.php.txt
+url = http://pythonpackages.com/buildout/wordpress/conf/wp-config-sample.php.txt
 output = ${buildout:directory}/parts/wordpress/wp-config.php
 
 [database]
