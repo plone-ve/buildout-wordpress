@@ -4,7 +4,7 @@ parts = wordpress wp-config
 
 [wordpress]
 recipe = hexagonit.recipe.download
-url = http://wordpress.org/wordpress-3.3.2.zip
+url = http://wordpress.org/wordpress-3.4.zip
 destination = ${buildout:directory}/parts/wordpress
 strip-top-level-dir = true
 ignore-existing = true
