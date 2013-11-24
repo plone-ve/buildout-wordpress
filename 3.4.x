@@ -11,7 +11,7 @@ ignore-existing = true
 
 [wp-config]
 recipe = collective.recipe.template
-url = http://pythonpackages.com/buildout/wordpress/conf/wp-config-sample.php.txt
+url = https://raw.github.com/buildouts/buildout-wordpress/master/conf/wp-config-sample.php.txt
 output = ${buildout:directory}/parts/wordpress/wp-config.php
 
 [database]
