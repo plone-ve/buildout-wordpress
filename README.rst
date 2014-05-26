@@ -31,6 +31,15 @@ To get a basic development installation running follow the steps below: ::
     $ python bootstrap.py
     $ bin/buildout -vvvvvvvvN
 
+
+Install required packages
+--------------------------
+
+To install Wordpress need some required packages, for install it 
+execute the follow command: ::
+
+    # apt-get install curl apache2 libapache2-mod-php5 mysql-server
+
 How to use Wordpress
 ---------------------
 
@@ -41,4 +50,4 @@ TODO
 Reference
 ----------
 
-- `Wordpress — pythonpackages.com <http://docs.pythonpackages.com/en/latest/hosted-configs/wordpress.html>`
+- `Wordpress — pythonpackages.com <http://docs.pythonpackages.com/en/latest/hosted-configs/wordpress.html>`_
