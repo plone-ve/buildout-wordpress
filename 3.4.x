@@ -4,14 +4,14 @@ parts = wordpress wp-config
 
 [wordpress]
 recipe = hexagonit.recipe.download
-url = http://wordpress.org/wordpress-3.4.1.zip
+url = http://es.wordpress.org/wordpress-3.4-es_ES.zip
 destination = ${buildout:directory}/parts/wordpress
 strip-top-level-dir = true
 ignore-existing = true
 
 [wp-config]
 recipe = collective.recipe.template
-url = https://raw.github.com/buildouts/buildout-wordpress/master/conf/wp-config-sample-3.4-x.php.txt
+url = https://raw.githubusercontent.com/plone-ve/buildout-wordpress/master/conf/wp-config-sample-3.4.x.php.txt
 output = ${buildout:directory}/parts/wordpress/wp-config.php
 
 [database]
