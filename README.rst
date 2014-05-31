@@ -13,13 +13,13 @@ Features
 This buildout configuration includes different configurations for 
 several Wordpress versions like these:
 
-- ``Wordpress 3.4``.
+- `Wordpress 3.4 <http://es.wordpress.org/wordpress-3.4-es_ES.zip>`_.
 
-- ``Wordpress 3.7``.
+- `Wordpress 3.7 <http://es.wordpress.org/wordpress-3.7-es_ES.zip>`_.
 
-- ``Wordpress 3.8``.
+- `Wordpress 3.8 <http://es.wordpress.org/wordpress-3.8-es_ES.zip>`_.
 
-- ``Wordpress 3.9``.
+- `Wordpress 3.9 <http://es.wordpress.org/wordpress-3.9-es_ES.zip>`_.
 
 Development installation
 ------------------------
@@ -47,7 +47,30 @@ For access to Wordpress administration panel use the follow url address:
 
 TODO
 
+
+Download
+=========
+
+You can find the buildout configuration of ``buildout-wordpress`` into 
+the `PloneVe repository`_ at Github.com.
+
+Original Author
+===============
+
+* Alex Clark ☺ aka aclark4life
+
+Impressive collaborations
+=========================
+
+* José Luis Viéitez aka jlv-code
+
+* Leonardo J .Caballero G. aka macagua
+
+For an updated list of all contributors visit the following URL: https://github.com/plone-ve/buildout-wordpress/contributors
+
 Reference
 ----------
 
-- `Wordpress — pythonpackages.com <http://docs.pythonpackages.com/en/latest/hosted-configs/wordpress.html>`_
+- `Wordpress — pythonpackages.com <http://docs.pythonpackages.com/en/latest/hosted-configs/wordpress.html>`_.
+
+.. _PloneVe repository: https://github.com/plone-ve/buildout-wordpress.git
