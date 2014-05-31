@@ -54,13 +54,18 @@ Download
 You can find the buildout configuration of ``buildout-wordpress`` into 
 the `PloneVe repository`_ at Github.com.
 
+Collaborations
+==============
+
+Really thanks to :
+
 Original Author
-===============
+----------------
 
 * Alex Clark ☺ aka aclark4life
 
 Impressive collaborations
-=========================
+-------------------------
 
 * José Luis Viéitez aka jlv-code
 
@@ -69,7 +74,7 @@ Impressive collaborations
 For an updated list of all contributors visit the following URL: https://github.com/plone-ve/buildout-wordpress/contributors
 
 Reference
-----------
+==========
 
 - `Wordpress — pythonpackages.com <http://docs.pythonpackages.com/en/latest/hosted-configs/wordpress.html>`_.
 
